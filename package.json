@@ -11,11 +11,15 @@
     "whatsapp",
     "wppconnect",
     "chat",
-    "bot"
+    "bot",
+    "ai",
+    "openai"
   ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wppconnect-team/wppconnect": "^1.37.0"
+    "@wppconnect-team/wppconnect": "^1.37.0",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1"
   }
 }
