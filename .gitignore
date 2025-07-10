@@ -1,0 +1,31 @@
+# Dependências
+node_modules/
+package-lock.json
+yarn.lock
+
+# Arquivos de sessão do WhatsApp
+tokens/
+whatsapp-session/
+*.data.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretório de ambiente de tempo de execução
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Diretórios de cache
+.npm
+.eslintcache
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
