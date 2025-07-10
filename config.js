@@ -17,7 +17,7 @@ module.exports = {
     
     // Frequência de penalidade (-2.0 a 2.0)
     // Valores positivos penalizam tokens que já apareceram, diminuindo repetições
-    frequencyPenalty: 0.0,
+    frequencyPenalty: 1.0,
     
     // Penalidade de presença (-2.0 a 2.0)
     // Valores positivos penalizam tokens que já apareceram no texto, aumentando a probabilidade

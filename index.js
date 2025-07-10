@@ -70,6 +70,13 @@ async function start(client)
 
     client.onMessage(async (message) => {
 
+        if (message.type === 'audio') 
+        {
+            // Envia uma resposta dizendo que não pode ouvir áudios
+            await client.sendText(message.from, 'Desculpe, não consigo ouvir áudios. Por favor, envie uma mensagem de texto.');
+            return;
+        }
+
         //ENVIA COMANDO DE DIGITANDO
         client.startTyping(message.from);
 
